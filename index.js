@@ -14,7 +14,7 @@
   TCP.prototype.shutdown = function () {
     var r = _shutdown.apply(this, arguments);
     if (r && !this._ka)
-      _setKeepAlive.call(this, true, 75); // 75 seconds
+      _setKeepAlive.call(this, true, 150); // 150 sec
     return r;
   };
 })();
