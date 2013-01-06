@@ -1,9 +1,15 @@
 {
-  "author": "Wang Wenlin <sopl.wang@gmail.com>",
+  "author": {
+    "name": "Wang Wenlin",
+    "email": "sopl.wang@gmail.com"
+  },
   "name": "node-ka-patch",
   "description": "A library for monkey-patch Node.js to force TCP keep-alive after socket.end()",
   "version": "0.0.2",
-  "keywords": ["patch", "keepalive"],
+  "keywords": [
+    "patch",
+    "keepalive"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/soplwang/node-ka-patch.git"
@@ -13,5 +19,6 @@
     "node": ">=0.8.0"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "readme": "node-ka-patch.js\n================\n\nIntroduction\n------------\nA library for monkey-patch Node.js to force TCP keep-alive after `socket.end()`.\n\nInstallation\n------------\n\n    npm install node-ka-patch\n"
 }
