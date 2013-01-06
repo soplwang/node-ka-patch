@@ -5,7 +5,7 @@
   },
   "name": "node-ka-patch",
   "description": "A library for monkey-patch Node.js to force TCP keep-alive after socket.end()",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "keywords": [
     "patch",
     "keepalive"
@@ -20,5 +20,4 @@
   },
   "dependencies": {},
   "devDependencies": {},
-  "readme": "node-ka-patch.js\n================\n\nIntroduction\n------------\nA library for monkey-patch Node.js to force TCP keep-alive after `socket.end()`.\n\nInstallation\n------------\n\n    npm install node-ka-patch\n"
 }
