@@ -9,3 +9,10 @@ Installation
 ------------
 
     npm install node-ka-patch
+
+Usage
+-----
+
+```javascript
+require('node-ka-patch');
+```
